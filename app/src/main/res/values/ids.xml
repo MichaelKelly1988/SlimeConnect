@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <!--
+    Google Play game services IDs.
+    Save this file as res/values/games-ids.xml in your project.
+    -->
+<resources>
+    <!-- app_id -->
+    <string name="app_id" translatable="false">94073482125</string>
+    <!-- package_name -->
+    <string name="package_name" translatable="false">com.studio.mick.slime</string>
+    <!-- leaderboard Best Scores -->
+    <string name="leaderboard_best_scores" translatable="false">CgkIjdfdud4CEAIQAA</string>
+    <item name="sign_out_button" type="id">Sign Out</item>
+</resources>
+

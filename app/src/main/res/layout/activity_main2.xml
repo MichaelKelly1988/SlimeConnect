@@ -1,0 +1,51 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.studio.mick.slime.Main2Activity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/slimer"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/compute"
+        style="@style/Widget.AppCompat.ActivityChooserView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#000000"
+        android:text="@string/next_comp"
+        android:textColor="@android:color/white"
+        android:layout_marginBottom="14dp"
+        android:layout_above="@+id/play"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/play"
+        android:background="#000000"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/next_level"
+        android:textColor="@android:color/white"
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@+id/compute"
+        android:layout_alignStart="@+id/compute"
+        android:layout_marginBottom="221dp"
+        android:layout_alignRight="@+id/compute"
+        android:layout_alignEnd="@+id/compute" />
+
+    <com.google.android.gms.common.SignInButton
+        android:id="@+id/sign_in_button"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        ></com.google.android.gms.common.SignInButton>
+
+
+</RelativeLayout>
